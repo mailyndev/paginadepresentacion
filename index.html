@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailyn Cordero | Portfolio Express</title>
+    <meta name="description" content="Portfolio profesional de Mailyn Cordero, Profesora de Inglés y creadora de proyectos digitales.">
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" id="logo-link">
+                <span class="logo-dot"></span>
+                <span class="logo-text">Mailyn Cordero</span>
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú de navegación">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contacto" class="nav-link nav-btn-outline">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="inicio">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-left">
+                    <span class="hero-badge">Welcome | Bienvenidos</span>
+                    <h1 class="hero-title">Mailyn Cordero</h1>
+                    <p class="hero-subtitle">Profesora de Inglés y creadora de proyectos digitales</p>
+                    <div class="hero-actions">
+                        <a href="#proyectos" class="btn btn-primary" id="hero-cta-btn">
+                            Ver proyectos
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contacto" class="btn btn-secondary">
+                            Saber más
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-right">
+                    <div class="visual-wrapper">
+                        <!-- Custom CSS/SVG Interactive Digital Canvas -->
+                        <div class="canvas-card">
+                            <div class="card-header-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="canvas-content">
+                                <div class="floating-badge badge-lang">
+                                    <span class="badge-icon">🇬🇧</span>
+                                    <span>English Teacher</span>
+                                </div>
+                                <div class="floating-badge badge-tech">
+                                    <span class="badge-icon">⚡</span>
+                                    <span>Digital Creator</span>
+                                </div>
+                                <div class="canvas-illustration">
+                                    <!-- A modern digital illustration made with styled HTML & inline SVG -->
+                                    <svg class="illustration-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="#4f46e5" />
+                                                <stop offset="100%" stop-color="#0d9488" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle cx="100" cy="100" r="70" fill="url(#circleGrad)" fill-opacity="0.1" stroke="url(#circleGrad)" stroke-width="2" stroke-dasharray="4 4" />
+                                        <rect x="65" y="70" width="70" height="50" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="3" />
+                                        <line x1="75" y1="85" x2="125" y2="85" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" />
+                                        <line x1="75" y1="95" x2="115" y2="95" stroke="#0d9488" stroke-width="3" stroke-linecap="round" />
+                                        <line x1="75" y1="105" x2="100" y2="105" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" />
+                                        <path d="M120 120L150 150M150 150L135 155M150 150L155 135" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                        <circle cx="100" cy="40" r="12" fill="#0d9488" />
+                                        <path d="M96 36H104M100 36V44" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <div class="canvas-code">
+                                    <p class="code-line"><span class="code-keyword">const</span> <span class="code-var">mailyn</span> = {</p>
+                                    <p class="code-line indent"><span class="code-prop">role</span>: <span class="code-val">"Educator & Developer"</span>,</p>
+                                    <p class="code-line indent"><span class="code-prop">languages</span>: [<span class="code-val">"ES"</span>, <span class="code-val">"EN"</span>],</p>
+                                    <p class="code-line indent"><span class="code-prop">focus</span>: <span class="code-val">"AI + Education"</span></p>
+                                    <p class="code-line">};</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section" id="sobre-mi">
+            <div class="container">
+                <div class="section-title-wrapper text-center reveal-y">
+                    <span class="section-subtitle">Trayectoria</span>
+                    <h2 class="section-title">Sobre mí</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-image-column reveal-left">
+                        <div class="about-card-decorative">
+                            <div class="initials-avatar">
+                                <span>MC</span>
+                            </div>
+                            <h3 class="avatar-title">Mailyn Cordero</h3>
+                            <p class="avatar-tag">English Coach & Builder</p>
+                            <div class="avatar-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Idioma Nativo:</span>
+                                    <span class="detail-value">Español</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Especialidad:</span>
+                                    <span class="detail-value">Inglés + Tech</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content-column reveal-right">
+                        <h3 class="about-welcome-title">Conectando la enseñanza del inglés con la era digital</h3>
+                        <p class="about-text">
+                            ¡Hola! Soy <strong>Mailyn Cordero</strong>. Como profesional de la educación y apasionada por la tecnología, he dedicado mi carrera a unir dos mundos: la enseñanza del inglés y la creación de herramientas digitales.
+                        </p>
+                        <p class="about-text">
+                            Creo firmemente que el aprendizaje de idiomas se potencia exponencialmente cuando se combina con la interactividad y la tecnología moderna. Por ello, no solo enseño, sino que diseño soluciones digitales, automatizo procesos educativos e integro la Inteligencia Artificial para enriquecer las experiencias de aprendizaje de mis estudiantes.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card">
+                                <span class="stat-num">+5</span>
+                                <span class="stat-desc">Años enseñando</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-num">+15</span>
+                                <span class="stat-desc">Proyectos Creados</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-num">100%</span>
+                                <span class="stat-desc">Enfoque Práctico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="habilidades">
+            <div class="container">
+                <div class="section-title-wrapper text-center reveal-y">
+                    <span class="section-subtitle">Lo que sé hacer</span>
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Card 1: Inteligencia Artificial -->
+                    <div class="skill-card reveal-y">
+                        <div class="skill-icon-wrapper color-ai">
+                            <!-- SVG AI Icon -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M12 8v8M8 12h8"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Inteligencia Artificial</h3>
+                        <p class="skill-description">Implementación de modelos de lenguaje (LLMs) y prompts avanzados para optimizar la preparación de clases, automatizar la generación de contenidos educativos adaptados y crear herramientas personalizadas de tutoría en inglés.</p>
+                    </div>
+
+                    <!-- Card 2: Automatizaciones -->
+                    <div class="skill-card reveal-y">
+                        <div class="skill-icon-wrapper color-auto">
+                            <!-- SVG Automation Icon -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Automatizaciones</h3>
+                        <p class="skill-description">Diseño y optimización de flujos de trabajo automáticos utilizando herramientas de integración. Ahorro de tiempo en la gestión de alumnos, notificaciones automatizadas, y sincronización instantánea de agendas.</p>
+                    </div>
+
+                    <!-- Card 3: Creación de apps -->
+                    <div class="skill-card reveal-y">
+                        <div class="skill-icon-wrapper color-apps">
+                            <!-- SVG Web Apps Icon -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Creación de apps</h3>
+                        <p class="skill-description">Desarrollo de aplicaciones web personalizadas, herramientas dinámicas de práctica lingüística e interfaces intuitivas que solucionan problemas reales tanto en el aula digital como para emprendedores.</p>
+                    </div>
+
+                    <!-- Card 4: Formación online -->
+                    <div class="skill-card reveal-y">
+                        <div class="skill-icon-wrapper color-edu">
+                            <!-- SVG E-learning Icon -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Formación online</h3>
+                        <p class="skill-description">Especialización en metodologías activas y e-learning interactivo. Creación de programas de estudios a medida, talleres dinámicos y ecosistemas educativos digitales orientados a resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="proyectos">
+            <div class="container">
+                <div class="section-title-wrapper text-center reveal-y">
+                    <span class="section-subtitle">Mi portafolio</span>
+                    <h2 class="section-title">Proyectos</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card reveal-y">
+                        <div class="project-image-placeholder color-p1">
+                            <span class="project-num">01</span>
+                            <div class="project-visual-preview">
+                                <div class="browser-mockup">
+                                    <div class="mock-dots"><span class="m-dot red"></span><span class="m-dot yellow"></span><span class="m-dot green"></span></div>
+                                    <div class="mock-content">
+                                        <div class="mock-title">English Accelerator</div>
+                                        <div class="mock-line-group">
+                                            <div class="mock-line w-80"></div>
+                                            <div class="mock-line w-60"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">NextJS</span>
+                                <span class="tag">API Integration</span>
+                            </div>
+                            <h3 class="project-title">English Accelerator</h3>
+                            <p class="project-description">Una plataforma web inteligente que genera rutas de estudio personalizadas en inglés basándose en el nivel del usuario y sus objetivos profesionales.</p>
+                            <a href="#contacto" class="project-link">
+                                Ver detalles
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="link-arrow"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card reveal-y">
+                        <div class="project-image-placeholder color-p2">
+                            <span class="project-num">02</span>
+                            <div class="project-visual-preview">
+                                <div class="browser-mockup">
+                                    <div class="mock-dots"><span class="m-dot red"></span><span class="m-dot yellow"></span><span class="m-dot green"></span></div>
+                                    <div class="mock-content">
+                                        <div class="mock-title">AutoClass Admin</div>
+                                        <div class="mock-line-group">
+                                            <div class="mock-line w-70"></div>
+                                            <div class="mock-line w-50"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Automation</span>
+                                <span class="tag">Zapier</span>
+                                <span class="tag">Notion</span>
+                            </div>
+                            <h3 class="project-title">AutoClass Admin</h3>
+                            <p class="project-description">Sistema de automatización integral para docentes de idiomas. Sincroniza calendarios, envía recordatorios automáticos de deberes y gestiona evaluaciones con un clic.</p>
+                            <a href="#contacto" class="project-link">
+                                Ver detalles
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="link-arrow"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card reveal-y">
+                        <div class="project-image-placeholder color-p3">
+                            <span class="project-num">03</span>
+                            <div class="project-visual-preview">
+                                <div class="browser-mockup">
+                                    <div class="mock-dots"><span class="m-dot red"></span><span class="m-dot yellow"></span><span class="m-dot green"></span></div>
+                                    <div class="mock-content">
+                                        <div class="mock-title">VerbQuiz App</div>
+                                        <div class="mock-line-group">
+                                            <div class="mock-line w-90"></div>
+                                            <div class="mock-line w-40"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Mobile Web</span>
+                                <span class="tag">Vanilla JS</span>
+                                <span class="tag">CSS Grid</span>
+                            </div>
+                            <h3 class="project-title">VerbQuiz App</h3>
+                            <p class="project-description">Aplicación web interactiva gamificada con soporte para móviles que ayuda a estudiantes a memorizar verbos irregulares ingleses mediante micro-retos diarios.</p>
+                            <a href="#contacto" class="project-link">
+                                Ver detalles
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="link-arrow"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contacto">
+            <div class="container">
+                <div class="section-title-wrapper text-center reveal-y">
+                    <span class="section-subtitle">¿Tienes un proyecto en mente?</span>
+                    <h2 class="section-title">Hablemos</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-column reveal-left">
+                        <h3 class="contact-info-title">¡Creemos algo juntos!</h3>
+                        <p class="contact-info-text">
+                            ¿Estás interesado en clases de inglés personalizadas, en automatizar tus flujos de trabajo o en desarrollar un proyecto digital innovador? Escríbeme y charlemos sobre cómo podemos colaborar.
+                        </p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span class="c-label">Email</span>
+                                    <a href="mailto:hello@mailyn.dev" class="c-value">hello@mailyn.dev</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span class="c-label">LinkedIn</span>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="c-value">linkedin.com/in/mailyncordero</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="contact-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div class="contact-detail-text">
+                                    <span class="c-label">Ubicación</span>
+                                    <span class="c-value">Remoto / Global</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-column reveal-right">
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nombre completo</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Ej. Juan Pérez" required>
+                                <span class="error-msg" id="name-error">El nombre es requerido.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="Ej. juan@correo.com" required>
+                                <span class="error-msg" id="email-error">Por favor, introduce un correo válido.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Asunto</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder="Ej. Tutoría personalizada / Automatización" required>
+                                <span class="error-msg" id="subject-error">El asunto es requerido.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Describe tu idea o consulta..." required></textarea>
+                                <span class="error-msg" id="message-error">El mensaje es requerido (mínimo 10 caracteres).</span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">
+                                Contactar
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+
+                            <div class="form-success-box" id="success-box">
+                                <div class="success-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="success-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </div>
+                                <div class="success-text-box">
+                                    <h4>¡Mensaje enviado con éxito!</h4>
+                                    <p>Gracias por escribirme. Te responderé muy pronto.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; 2026 Mailyn Cordero. Todos los derechos reservados.</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="mailto:hello@mailyn.dev" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
